@@ -183,8 +183,8 @@ Citizen.CreateThread(function()
 			DisableControlAction(2, 33, true)
 			DisableControlAction(2, 34, true)
 			DisableControlAction(2, 35, true)
-			DisableControlAction(0, 25, true) -- Input Aim
-			DisableControlAction(0, 24, true) -- Input Attack
+			DisableControlAction(0, 25, true)
+			DisableControlAction(0, 24, true)
 
 			local playerPed = PlayerPedId()
 			local coords    = GetEntityCoords(playerPed)

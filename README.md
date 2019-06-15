@@ -1,23 +1,23 @@
 # esx_skin
 
 ## Requirements
-- [skinchanger](https://github.com/ESX-Org/skinchanger)
+- [skinchanger](https://github.com/ESX-Brasil/skinchanger)
 
 ## Download & Installation
 
 ### Using [fvm](https://github.com/qlaffont/fvm-installer)
 ```
-fvm install --save --folder=esx esx-org/esx_skin
+fvm install --save --folder=esx ESX-Brasil/esx_skin
 ```
 
 ### Using Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_skin [esx]/esx_skin
+git clone https://github.com/ESX-Brasil/esx_skin [esx]/esx_skin
 ```
 
 ### Manually
-- Download https://github.com/ESX-Org/esx_skin/archive/master.zip
+- Download https://github.com/ESX-Brasil/esx_skin/archive/master.zip
 - Put it in the `[esx]` directory
 
 ## Installation
@@ -31,7 +31,7 @@ start esx_skin
 ### License
 esx_skin - skin selector for ESX
 
-Copyright (C) 2015-2018 Jérémie N'gadi
+Copyright (C) 2015-2019 ESX-Brasil
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 

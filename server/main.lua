@@ -54,7 +54,7 @@ ESX.RegisterServerCallback('esx_skin:getPlayerSkin', function(source, cb)
 	end)
 end)
 
--- Commands
+-- Comandos
 TriggerEvent('es:addGroupCommand', 'skin', 'admin', function(source, args, user)
 	TriggerClientEvent('esx_skin:openSaveableMenu', source)
 end, function(source, args, user)
