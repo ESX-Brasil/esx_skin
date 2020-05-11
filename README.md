@@ -7,7 +7,7 @@
 
 ### Using [fvm](https://github.com/qlaffont/fvm-installer)
 ```
-fvm install --save --folder=esx ESX-Brasil/esx_skin
+fvm install --save --folder=esx esx-brasil/esx_skin
 ```
 
 ### Using Git
@@ -21,6 +21,7 @@ git clone https://github.com/ESX-Brasil/esx_skin [esx]/esx_skin
 - Put it in the `[esx]` directory
 
 ## Installation
+- Import `esx_skin.sql` to your database
 - Add this in your `server.cfg`:
 
 ```
@@ -31,7 +32,7 @@ start esx_skin
 ### License
 esx_skin - skin selector for ESX
 
-Copyright (C) 2015-2019 ESX-Brasil
+Copyright (C) 2015-2020 ESXBrasil
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
